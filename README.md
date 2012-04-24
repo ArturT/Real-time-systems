@@ -88,3 +88,79 @@ Exercise 2
 	# Koniec procesu macierzystego.
 
 * èrÛd≥o: [Lab 2. Zadanie 7.](http://sites.google.com/site/zbislawtabor/dydaktyka/systemy-czasu-rzeczywistego/laboratoria-rts/zarzadzanie-procesami)
+
+
+Exercise 3
+----------
+
+### Konfiguracja
+
+Stworzone jako projekty `QNX C++ Project`.
+
+
+### Przyk≥adowy output
+
+	# P=IN Wchodzi pisarz (watek 2) (aktualna ilosc pisarzy w bibliotece: 1) #
+	# P=IN Pisarz pisze tekst... (watek 2) (aktualna ilosc pisarzy w bibliotece: 1) #
+	# P=OUT Wychodzi pisarz (watek 2) (aktualna ilosc pisarzy w bibliotece: 1) #
+	@ C=IN  Wchodzi czytelnik (watek 3) (aktualna ilosc czytelnikow w bibliotece: 1) @
+	@ C=IN Czytelnik czyta... (watek 3) (aktualna ilosc czytelnikow w bibliotece: 1) @
+	@ C=IN  Wchodzi czytelnik (watek 4) (aktualna ilosc czytelnikow w bibliotece: 2) @
+	@ C=IN Czytelnik czyta... (watek 4) (aktualna ilosc czytelnikow w bibliotece: 2) @
+	@ C=IN  Wchodzi czytelnik (watek 5) (aktualna ilosc czytelnikow w bibliotece: 3) @
+	@ C=IN Czytelnik czyta... (watek 5) (aktualna ilosc czytelnikow w bibliotece: 3) @
+	@ C=IN  Wchodzi czytelnik (watek 6) (aktualna ilosc czytelnikow w bibliotece: 4) @
+	@ C=IN Czytelnik czyta... (watek 6) (aktualna ilosc czytelnikow w bibliotece: 4) @
+	@ C=IN  Wchodzi czytelnik (watek 7) (aktualna ilosc czytelnikow w bibliotece: 5) @
+	@ C=IN Czytelnik czyta... (watek 7) (aktualna ilosc czytelnikow w bibliotece: 5) @
+	@ C=OUT Wychodzi czytelnik (watek 3) (aktualna ilosc czytelnikow w bibliotece: 4) @
+	@ C=OUT Wychodzi czytelnik (watek 4) (aktualna ilosc czytelnikow w bibliotece: 3) @
+	@ C=OUT Wychodzi czytelnik (watek 5) (aktualna ilosc czytelnikow w bibliotece: 2) @
+	@ C=OUT Wychodzi czytelnik (watek 6) (aktualna ilosc czytelnikow w bibliotece: 1) @
+	@ C=OUT Wychodzi czytelnik (watek 7) (aktualna ilosc czytelnikow w bibliotece: 0) @
+	# P=IN Wchodzi pisarz (watek 17) (aktualna ilosc pisarzy w bibliotece: 1) #
+	# P=IN Pisarz pisze tekst... (watek 17) (aktualna ilosc pisarzy w bibliotece: 1) #
+	# P=OUT Wychodzi pisarz (watek 17) (aktualna ilosc pisarzy w bibliotece: 1) #
+	@ C=IN  Wchodzi czytelnik (watek 8) (aktualna ilosc czytelnikow w bibliotece: 1) @
+	@ C=IN Czytelnik czyta... (watek 8) (aktualna ilosc czytelnikow w bibliotece: 1) @
+	@ C=IN  Wchodzi czytelnik (watek 9) (aktualna ilosc czytelnikow w bibliotece: 2) @
+	@ C=IN Czytelnik czyta... (watek 9) (aktualna ilosc czytelnikow w bibliotece: 2) @
+	@ C=IN  Wchodzi czytelnik (watek 10) (aktualna ilosc czytelnikow w bibliotece: 3) @
+	@ C=IN Czytelnik czyta... (watek 10) (aktualna ilosc czytelnikow w bibliotece: 3) @
+	@ C=IN  Wchodzi czytelnik (watek 11) (aktualna ilosc czytelnikow w bibliotece: 4) @
+	@ C=IN Czytelnik czyta... (watek 11) (aktualna ilosc czytelnikow w bibliotece: 4) @
+	@ C=IN  Wchodzi czytelnik (watek 12) (aktualna ilosc czytelnikow w bibliotece: 5) @
+	@ C=IN Czytelnik czyta... (watek 12) (aktualna ilosc czytelnikow w bibliotece: 5) @
+	@ C=OUT Wychodzi czytelnik (watek 8) (aktualna ilosc czytelnikow w bibliotece: 4) @
+	@ C=OUT Wychodzi czytelnik (watek 9) (aktualna ilosc czytelnikow w bibliotece: 3) @
+	@ C=OUT Wychodzi czytelnik (watek 10) (aktualna ilosc czytelnikow w bibliotece: 2) @
+	@ C=OUT Wychodzi czytelnik (watek 11) (aktualna ilosc czytelnikow w bibliotece: 1) @
+	@ C=OUT Wychodzi czytelnik (watek 12) (aktualna ilosc czytelnikow w bibliotece: 0) @
+	# P=IN Wchodzi pisarz (watek 21) (aktualna ilosc pisarzy w bibliotece: 1) #
+	# P=IN Pisarz pisze tekst... (watek 21) (aktualna ilosc pisarzy w bibliotece: 1) #
+	# P=OUT Wychodzi pisarz (watek 21) (aktualna ilosc pisarzy w bibliotece: 1) #
+	@ C=IN  Wchodzi czytelnik (watek 13) (aktualna ilosc czytelnikow w bibliotece: 1) @
+	@ C=IN Czytelnik czyta... (watek 13) (aktualna ilosc czytelnikow w bibliotece: 1) @
+	@ C=IN  Wchodzi czytelnik (watek 14) (aktualna ilosc czytelnikow w bibliotece: 2) @
+	@ C=IN Czytelnik czyta... (watek 14) (aktualna ilosc czytelnikow w bibliotece: 2) @
+	@ C=IN  Wchodzi czytelnik (watek 16) (aktualna ilosc czytelnikow w bibliotece: 3) @
+	@ C=IN Czytelnik czyta... (watek 16) (aktualna ilosc czytelnikow w bibliotece: 3) @
+	@ C=IN  Wchodzi czytelnik (watek 18) (aktualna ilosc czytelnikow w bibliotece: 4) @
+	@ C=IN Czytelnik czyta... (watek 18) (aktualna ilosc czytelnikow w bibliotece: 4) @
+	@ C=IN  Wchodzi czytelnik (watek 15) (aktualna ilosc czytelnikow w bibliotece: 5) @
+	@ C=IN Czytelnik czyta... (watek 15) (aktualna ilosc czytelnikow w bibliotece: 5) @
+	@ C=OUT Wychodzi czytelnik (watek 14) (aktualna ilosc czytelnikow w bibliotece: 4) @
+	@ C=OUT Wychodzi czytelnik (watek 16) (aktualna ilosc czytelnikow w bibliotece: 3) @
+	@ C=OUT Wychodzi czytelnik (watek 18) (aktualna ilosc czytelnikow w bibliotece: 2) @
+	@ C=IN  Wchodzi czytelnik (watek 20) (aktualna ilosc czytelnikow w bibliotece: 3) @
+	@ C=IN Czytelnik czyta... (watek 20) (aktualna ilosc czytelnikow w bibliotece: 3) @
+	@ C=OUT Wychodzi czytelnik (watek 13) (aktualna ilosc czytelnikow w bibliotece: 2) @
+	@ C=OUT Wychodzi czytelnik (watek 15) (aktualna ilosc czytelnikow w bibliotece: 1) @
+	@ C=OUT Wychodzi czytelnik (watek 20) (aktualna ilosc czytelnikow w bibliotece: 0) @
+	@ C=IN  Wchodzi czytelnik (watek 19) (aktualna ilosc czytelnikow w bibliotece: 1) @
+	@ C=IN Czytelnik czyta... (watek 19) (aktualna ilosc czytelnikow w bibliotece: 1) @
+	@ C=OUT Wychodzi czytelnik (watek 19) (aktualna ilosc czytelnikow w bibliotece: 0) @
+
+	KONIEC
+
+* èrÛd≥o: [Lab 3. Zadanie 4.](http://sites.google.com/site/zbislawtabor/dydaktyka/systemy-czasu-rzeczywistego/laboratoria-rts/zarzadzanie-watkami)
