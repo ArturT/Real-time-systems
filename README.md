@@ -164,3 +164,111 @@ Stworzone jako projekty `QNX C++ Project`.
 	KONIEC
 
 * èrÛd≥o: [Lab 3. Zadanie 4.](http://sites.google.com/site/zbislawtabor/dydaktyka/systemy-czasu-rzeczywistego/laboratoria-rts/zarzadzanie-watkami)
+
+
+Exercise 4
+----------
+
+### Konfiguracja
+
+Stworzone jako projekty `QNX C++ Project`.
+
+
+### Przyk≥adowy output
+
+	Proces macierzysty PID: 671781
+	Proces potomny PID: 671792, jego matka ma PID: 671781
+
+	##################################
+
+	0. Macierzysty: ping (odpowiedz po czasie: 2s)
+
+			Proces potomny otrzyma≥ sygnal (pileczke)
+			[nr odebranego sygnalu: 16, ilosc wszystkich sygnalow: 1]
+
+			0. Potomek: pong (odpowiedz po czasie: 2s)
+
+	Proces macierzysty otrzyma≥ sygnal (pileczke)
+	[nr odebranego sygnalu: 16, ilosc wszystkich sygnalow: 1]
+
+	1. Macierzysty: ping (odpowiedz po czasie: 3s)
+
+			Proces potomny otrzyma≥ sygnal (pileczke)
+			[nr odebranego sygnalu: 16, ilosc wszystkich sygnalow: 2]
+
+			1. Potomek: pong (odpowiedz po czasie: 3s)
+
+	Proces macierzysty otrzyma≥ sygnal (pileczke)
+	[nr odebranego sygnalu: 16, ilosc wszystkich sygnalow: 2]
+
+	2. Macierzysty: ping (odpowiedz po czasie: 3s)
+
+			Proces potomny otrzyma≥ sygnal (pileczke)
+			[nr odebranego sygnalu: 16, ilosc wszystkich sygnalow: 3]
+
+			2. Potomek: pong (odpowiedz po czasie: 3s)
+
+	Proces macierzysty otrzyma≥ sygnal (pileczke)
+	[nr odebranego sygnalu: 16, ilosc wszystkich sygnalow: 3]
+
+	3. Macierzysty: ping (odpowiedz po czasie: 2s)
+
+			Proces potomny otrzyma≥ sygnal (pileczke)
+			[nr odebranego sygnalu: 16, ilosc wszystkich sygnalow: 4]
+
+			3. Potomek: pong (odpowiedz po czasie: 2s)
+
+	Proces macierzysty otrzyma≥ sygnal (pileczke)
+	[nr odebranego sygnalu: 16, ilosc wszystkich sygnalow: 4]
+
+	4. Macierzysty: ping (odpowiedz po czasie: 3s)
+
+			Proces potomny otrzyma≥ sygnal (pileczke)
+			[nr odebranego sygnalu: 16, ilosc wszystkich sygnalow: 5]
+
+			4. Potomek: pong (odpowiedz po czasie: 3s)
+
+	Proces macierzysty otrzyma≥ sygnal (pileczke)
+	[nr odebranego sygnalu: 16, ilosc wszystkich sygnalow: 5]
+
+	5. Macierzysty: ping (odpowiedz po czasie: 1s)
+
+			Proces potomny otrzyma≥ sygnal (pileczke)
+			[nr odebranego sygnalu: 16, ilosc wszystkich sygnalow: 6]
+
+			5. Potomek: pong (odpowiedz po czasie: 1s)
+
+	Proces macierzysty otrzyma≥ sygnal (pileczke)
+	[nr odebranego sygnalu: 16, ilosc wszystkich sygnalow: 6]
+
+	6. Macierzysty: ping (odpowiedz po czasie: 2s)
+
+			Proces potomny otrzyma≥ sygnal (pileczke)
+			[nr odebranego sygnalu: 16, ilosc wszystkich sygnalow: 7]
+
+			6. Potomek: pong (odpowiedz po czasie: 2s)
+
+	Proces macierzysty otrzyma≥ sygnal (pileczke)
+	[nr odebranego sygnalu: 16, ilosc wszystkich sygnalow: 7]
+
+	7. Macierzysty: ping (odpowiedz po czasie: 2s)
+
+			Proces potomny otrzyma≥ sygnal (pileczke)
+			[nr odebranego sygnalu: 16, ilosc wszystkich sygnalow: 8]
+
+			7. Potomek: pong (odpowiedz po czasie: 2s)
+
+	Proces macierzysty otrzyma≥ sygnal (pileczke)
+	[nr odebranego sygnalu: 16, ilosc wszystkich sygnalow: 8]
+
+	8. Macierzysty: ping (odpowiedz po czasie: 1s)
+
+			Proces potomny otrzyma≥ sygnal (pileczke)
+			[nr odebranego sygnalu: 16, ilosc wszystkich sygnalow: 9]
+
+			8. Potomek: pong (odpowiedz po czasie: 1s)
+
+	Proces macierzysty otrzyma≥ sygnal (pileczke)
+	[nr odebranego sygnalu: 16, ilosc wszystkich sygnalow: 9]
+
+* èrÛd≥o: [Lab 4. Zadanie 7.](http://sites.google.com/site/zbislawtabor/dydaktyka/systemy-czasu-rzeczywistego/laboratoria-rts/komunikacja-posix)
