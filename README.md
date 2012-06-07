@@ -95,7 +95,7 @@ Exercise 3
 
 ### Konfiguracja
 
-Stworzone jako projekty `QNX C++ Project`.
+Stworzone jako projekt `QNX C++ Project`.
 
 
 ### Przyk³adowy output
@@ -171,7 +171,7 @@ Exercise 4
 
 ### Konfiguracja
 
-Stworzone jako projekty `QNX C++ Project`.
+Stworzone jako projekt `QNX C++ Project`.
 
 
 ### Przyk³adowy output
@@ -272,3 +272,75 @@ Stworzone jako projekty `QNX C++ Project`.
 	[nr odebranego sygnalu: 16, ilosc wszystkich sygnalow: 9]
 
 * ród³o: [Lab 4. Zadanie 7.](http://sites.google.com/site/zbislawtabor/dydaktyka/systemy-czasu-rzeczywistego/laboratoria-rts/komunikacja-posix)
+
+
+Exercise 5
+----------
+
+### Konfiguracja
+
+Stworzone jako projekt `QNX C++ Project`.
+
+
+### Przyk³adowy output
+
+	/*
+	//
+	// Przyk³adowy output dla serwera:
+	//
+
+	# Serwer plikow - Artur Trzop 13K3
+	0) Uruchom serwer
+	1) Uruchom klienta
+	Wybierz numer: 0
+
+	Podaj nazwe dla tworzonego serwera: Serwer1
+	Uruchomiono serwer!
+	Otwarcie do odczytu pliku: plik1.txt
+	Przesylanie na serwer pliku: plik2.txt
+	Serwer zakonczyl prace!
+
+	*/
+
+
+	/*
+	//
+	// Przyk³adowy output dla klienta:
+	//
+
+	# Serwer plikow - Artur Trzop 13K3
+	0) Uruchom serwer
+	1) Uruchom klienta
+	Wybierz numer: 1
+
+	Podaj nazwe serwera z ktorym chcesz sie polaczyc jako klient: Serwer1
+
+	0) Pobierz plik z serwera.
+	1) Wyslij plik na serwer
+	2) Wyjscie
+	Wybierz numer: Podaj poprawna liczbe: 0
+
+	Podaj nazwe pliku ktory chcesz pobrac z serwera: plik1.txt
+	Plik plik1.txt:
+	Jakis tekst w pliku :)
+
+
+	0) Pobierz plik z serwera.
+	1) Wyslij plik na serwer
+	2) Wyjscie
+	Wybierz numer: Podaj poprawna liczbe: 1
+
+	Podaj nazwe pliku ktoru chcesz wyslac na serwer: plik2.txt
+
+	Zapisano plik na serwerze.
+
+	0) Pobierz plik z serwera.
+	1) Wyslij plik na serwer
+	2) Wyjscie
+	Wybierz numer: Podaj poprawna liczbe: 2
+
+	Zakonczono prace klienta.
+
+	*/
+
+* ród³o: [Lab 5. Zadanie 3.](https://sites.google.com/site/zbislawtabor/dydaktyka/systemy-czasu-rzeczywistego/laboratoria-rts/komunikacja-miedzy-zdarzeniami---rozszerzenia-qnx)
