@@ -344,3 +344,270 @@ Stworzone jako projekt `QNX C++ Project`.
 	*/
 
 * èrÛd≥o: [Lab 5. Zadanie 3.](https://sites.google.com/site/zbislawtabor/dydaktyka/systemy-czasu-rzeczywistego/laboratoria-rts/komunikacja-miedzy-zdarzeniami---rozszerzenia-qnx)
+
+
+Exercise 6
+----------
+
+### Konfiguracja
+
+Stworzone jako projekt `QNX C++ Project`.
+
+
+### Przyk≥adowy output
+
+	/*
+	//
+	// Przyk≥adowy output:
+	//
+
+	# Implementacja planisty cyklicznego - Artur Trzop 13K3
+
+	Proces info:
+	Nazwa: zad6_exampleprocess
+	Delay: 14
+	Frequency: 8
+
+	Proces info:
+	Nazwa: zad6_exampleprocess
+	Delay: 7
+	Frequency: 8
+
+	Proces info:
+	Nazwa: zad6_exampleprocess
+	Delay: 6
+	Frequency: 5
+
+	Proces info:
+	Nazwa: zad6_exampleprocess
+	Delay: 12
+	Frequency: 6
+
+	Proces info:
+	Nazwa: zad6_exampleprocess
+	Delay: 15
+	Frequency: 8
+
+	> Dzialanie programu:
+	Process started PID=2659343
+	Process stopped PID=2659343
+	Process started PID=2659439
+		Process running... My PID=2659439
+		Process end... My PID=2659439
+	Process finished PID=2659439
+	Process resumption PID=2659343
+		Process running... My PID=2659343
+		Process end... My PID=2659343
+	Process finished PID=2659343
+	Process started PID=2667535
+		Process running... My PID=2667535
+	Process stopped PID=2667535
+	Process started PID=2667631
+		Process running... My PID=2667631
+		Process end... My PID=2667631
+	Process finished PID=2667631
+	Process resumption PID=2667535
+		Process end... My PID=2667535
+	Process stopped PID=2667535
+	Process started PID=2671727
+	Process finished PID=2671727
+	Process resumption PID=2667535
+		Process running... My PID=2671727
+	Process stopped PID=2667535
+	Process started PID=2675727
+		Process running... My PID=2675727
+		Process end... My PID=2671727
+	Process finished PID=2675727
+	Process resumption PID=2667535
+		Process end... My PID=2675727
+	Process finished PID=2667535
+	Process started PID=2683919
+		Process running... My PID=2683919
+		Process end... My PID=2683919
+	Process stopped PID=2683919
+	Process started PID=2684015
+	Process finished PID=2684015
+	Process resumption PID=2683919
+		Process running... My PID=2684015
+		Process end... My PID=2684015
+	Process finished PID=2683919
+	Process started PID=2692111
+		Process running... My PID=2692111
+	Process stopped PID=2692111
+	Process started PID=2692207
+		Process running... My PID=2692207
+		Process end... My PID=2692207
+	Process stopped PID=2692207
+	Process started PID=2692208
+	Process finished PID=2692208
+	Process resumption PID=2692111
+		Process end... My PID=2692111
+	Process finished PID=2692111
+	Process resumption PID=2692207
+		Process running... My PID=2692208
+	Process stopped PID=2692207
+	Process started PID=2700303
+		Process running... My PID=2700303
+		Process end... My PID=2692208
+	Process finished PID=2700303
+	Process resumption PID=2692207
+		Process end... My PID=2700303
+	Process finished PID=2692207
+	Process started PID=2708495
+	Process stopped PID=2708495
+	Process started PID=2708591
+		Process running... My PID=2708591
+	Process stopped PID=2708591
+	Process started PID=2708592
+		Process running... My PID=2708592
+		Process end... My PID=2708592
+	Process finished PID=2708592
+	Process resumption PID=2708495
+		Process running... My PID=2708495
+	Process stopped PID=2708495
+	Process started PID=2712688
+		Process running... My PID=2712688
+		Process end... My PID=2712688
+	Process finished PID=2712688
+	Process resumption PID=2708591
+		Process end... My PID=2708591
+	Process finished PID=2708591
+	Process resumption PID=2708495
+		Process end... My PID=2708495
+	Process finished PID=2708495
+	Process started PID=2724879
+		Process running... My PID=2724879
+	Process stopped PID=2724879
+	Process started PID=2724975
+		Process running... My PID=2724975
+	Process stopped PID=2724975
+	Process started PID=2724976
+		Process running... My PID=2724976
+		Process end... My PID=2724976
+	Process finished PID=2724976
+	Process resumption PID=2724879
+		Process end... My PID=2724879
+	Process finished PID=2724879
+	Process resumption PID=2724975
+		Process end... My PID=2724975
+	Process finished PID=2724975
+	Process started PID=2737167
+		Process running... My PID=2737167
+		Process end... My PID=2737167
+	Process finished PID=2737167
+	Process started PID=2741263
+		Process running... My PID=2741263
+	Process stopped PID=2741263
+	Process started PID=2741359
+		Process running... My PID=2741359
+	Process stopped PID=2741359
+	Process started PID=2741360
+		Process running... My PID=2741360
+	Process stopped PID=2741360
+	Process started PID=2741361
+		Process running... My PID=2741361
+		Process end... My PID=2741361
+	Process finished PID=2741361
+	Process resumption PID=2741263
+		Process end... My PID=2741263
+	Process finished PID=2741263
+	Process resumption PID=2741359
+		Process end... My PID=2741359
+	Process finished PID=2741359
+	Process resumption PID=2741360
+		Process end... My PID=2741360
+	Process finished PID=2741360
+	Process started PID=2757647
+		Process running... My PID=2757647
+	Process stopped PID=2757647
+	Process started PID=2757743
+		Process running... My PID=2757743
+		Process end... My PID=2757743
+	Process finished PID=2757743
+	Process resumption PID=2757647
+		Process end... My PID=2757647
+	Process finished PID=2757647
+	Process started PID=2765839
+		Process running... My PID=2765839
+	Process stopped PID=2765839
+	Process started PID=2765935
+		Process running... My PID=2765935
+		Process end... My PID=2765935
+	Process finished PID=2765935
+	Process resumption PID=2765839
+		Process end... My PID=2765839
+	Process finished PID=2765839
+	Process started PID=2774031
+	Process stopped PID=2774031
+	Process started PID=2774127
+		Process running... My PID=2774127
+		Process end... My PID=2774127
+	Process finished PID=2774127
+	Process resumption PID=2774031
+		Process running... My PID=2774031
+		Process end... My PID=2774031
+	Process finished PID=2774031
+	Process started PID=2782223
+	Process stopped PID=2782223
+	Process started PID=2782319
+		Process running... My PID=2782319
+		Process end... My PID=2782319
+	Process finished PID=2782319
+	Process resumption PID=2782223
+		Process running... My PID=2782223
+	Process stopped PID=2782223
+	Process started PID=2786415
+		Process running... My PID=2786415
+	Process stopped PID=2786415
+	Process started PID=2786416
+		Process running... My PID=2786416
+		Process end... My PID=2786416
+	Process finished PID=2786416
+	Process resumption PID=2782223
+		Process end... My PID=2782223
+	Process finished PID=2782223
+	Process resumption PID=2786415
+		Process end... My PID=2786415
+	Process finished PID=2786415
+	Process started PID=2798607
+		Process running... My PID=2798607
+		Process end... My PID=2798607
+	Process stopped PID=2798607
+	Process started PID=2798703
+	Process finished PID=2798703
+	Process resumption PID=2798607
+		Process running... My PID=2798703
+	Process stopped PID=2798607
+	Process started PID=2802703
+		Process running... My PID=2802703
+		Process end... My PID=2798703
+	Process finished PID=2802703
+	Process resumption PID=2798607
+		Process end... My PID=2802703
+	Process stopped PID=2798607
+	Process started PID=2806895
+	Process finished PID=2806895
+	Process resumption PID=2798607
+		Process running... My PID=2806895
+		Process end... My PID=2806895
+	Process finished PID=2798607
+	Process started PID=2814991
+		Process running... My PID=2814991
+		Process end... My PID=2814991
+	Process stopped PID=2814991
+	Process started PID=2815087
+	Process finished PID=2815087
+	Process resumption PID=2814991
+	Process stopped PID=2814991
+		Process running... My PID=2815087
+	Process started PID=2819087
+		Process running... My PID=2819087
+	Process stopped PID=2819087
+	Process started PID=2819184
+		Process running... My PID=2819184
+		Process end... My PID=2815087
+	Process finished PID=2819184
+
+	*/
+	
+* èrÛd≥o: [Lab 6. Zadanie 3.](https://sites.google.com/site/zbislawtabor/dydaktyka/systemy-czasu-rzeczywistego/laboratoria-rts/timery-i-zdarzenia)
